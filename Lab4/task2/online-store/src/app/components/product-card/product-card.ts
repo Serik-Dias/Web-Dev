@@ -9,7 +9,7 @@ import { Product } from '../../product.model';
   templateUrl: './product-card.html',
   styleUrl: './product-card.css'
 })
-export class ProductCard { // Обрати внимание, имя класса без Component (как сгенерировал Angular 19)
+export class ProductCard {
   @Input() product!: Product;
 
   shareOnWhatsapp() {
