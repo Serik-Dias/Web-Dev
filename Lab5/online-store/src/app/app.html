@@ -1,0 +1,14 @@
+<div class="category-menu">
+  @for (cat of categoriesList; track cat.id) {
+    <button 
+      (click)="selectCategory(cat)" 
+      [class.active]="selectedCategory?.id === cat.id">
+      {{ cat.name }}
+    </button>
+  }
+</div>
+
+<app-product-list 
+  [products]="filteredProducts" 
+  (removeProduct)="removeProduct($event)">
+</app-product-list>
