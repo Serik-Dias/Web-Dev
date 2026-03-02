@@ -1,0 +1,17 @@
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photo-item {
+  border: 1px solid #ccc;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.photo-item img {
+  width: 100%;
+}

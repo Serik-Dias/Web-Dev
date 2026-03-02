@@ -1,0 +1,15 @@
+<div *ngIf="album" class="detail-card">
+  <h2>Album Details</h2>
+  <p><strong>ID:</strong> {{ album.id }}</p>
+  
+  <div class="edit-section">
+    <label>Title:</label>
+    <input [(ngModel)]="album.title" type="text">
+  </div>
+
+  <div class="buttons">
+    <button (click)="save()">Save</button>
+    <button (click)="goBack()">Return</button>
+    <a [routerLink]="['photos']"><button>See Photos</button></a>
+  </div>
+</div>
