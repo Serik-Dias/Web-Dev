@@ -4,7 +4,8 @@ export const categories: Category[] = [
   { id: 1, name: 'Смартфоны' },
   { id: 2, name: 'Компьютеры и Планшеты' },
   { id: 3, name: 'Аксессуары и Гаджеты' },
-  { id: 4, name: 'Бытовая техника' }
+  { id: 4, name: 'Бытовая техника' },
+  { id: 5, name: 'trees'}
 ];
 
 export const products: Product[] = [
@@ -248,4 +249,16 @@ export const products: Product[] = [
     images: ['https://resources.cdn-kaspi.kz/img/m/p/he2/h11/83559338442782.jpg', 'https://resources.cdn-kaspi.kz/img/m/p/h13/h14/83559338508318.jpg', 'https://resources.cdn-kaspi.kz/img/m/p/hfe/h17/83559338573854.jpg'],
     link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/'
   }, 
+  {
+    id: 21,
+    categoryId: 5,
+    name: 'Смартфон Apple iPhone 15 128Gb черный',
+    description: 'Новый iPhone 15 с инновационным дизайном и мощным процессором A16 Bionic.',
+    price: 365000,
+    rating: 4.9,
+    likes: 0,
+    image: 'https://resources.cdn-kaspi.kz/img/m/p/h1d/hfc/86303745998878.jpg?format=gallery-medium',
+    images: ['https://resources.cdn-kaspi.kz/img/m/p/he2/h11/83559338442782.jpg', 'https://resources.cdn-kaspi.kz/img/m/p/h13/h14/83559338508318.jpg', 'https://resources.cdn-kaspi.kz/img/m/p/hfe/h17/83559338573854.jpg'],
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/'
+  }
 ];
